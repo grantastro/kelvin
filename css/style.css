@@ -1,20 +1,23 @@
 body {
+	display: flex;
+	justify-content: center;
+	align-self: center;
 	font-family: 'Oswald', sans-serif;
 	padding-top: 100px;
+	margin: 0;
 	background: linear-gradient(#24f598, #1bd7bb, #0bb3e5);
 	height: 100%;
-	margin: 0;
+	margin: auto;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
-	overflow: hidden;
 }
 
 .container {
 	width: 700px;
 	display: flex;
+	margin: 0 auto;
 	justify-content: center;
 	align-self: center;
-	margin: 0 auto;
 }
 
 .card {
@@ -94,8 +97,23 @@ body {
 	padding: 80px 15px;
 }
 
-@media(max-height: 500px) {
+@media(max-height: 400px) {
 	body {
+		margin: auto;
+		font-family: 'Oswald', sans-serif;
 		padding-top: 0px;
+		background: linear-gradient(#24f598, #1bd7bb, #0bb3e5);
+		height: 100%;
+		background-repeat: no-repeat;
+		background-attachment: fixed;
+		overflow: hidden;
+	}
+
+	.container {
+		width: 700px;
+		display: flex;
+		justify-content: center;
+		align-self: center;
+		margin: 0 auto;
 	}
 }
