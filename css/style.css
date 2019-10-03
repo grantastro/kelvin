@@ -97,7 +97,7 @@ body {
 	padding: 80px 15px;
 }
 
-@media(max-height: 500px) {
+@media(max-height: 568px) {
 	body {
 		margin: auto;
 		font-family: 'Oswald', sans-serif;
