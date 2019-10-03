@@ -101,7 +101,7 @@ body {
 	body {
 		margin: auto;
 		font-family: 'Oswald', sans-serif;
-		padding-top: 0px;
+		padding-top: 20px;
 		background: linear-gradient(#24f598, #1bd7bb, #0bb3e5);
 		height: 100%;
 		background-repeat: no-repeat;
